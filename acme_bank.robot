@@ -33,9 +33,10 @@ Log into bank account
 
     # Perform login.
     Input Text        id:username    applibot
-    Input Text        id:password    I<3VisualTest
+    Input Text        id:password    I<3VisualTests
     Click Element     id:log-in
+    Eyes Check Window    Login Page2     Fully
 
     # Verify the full main page loaded correctly.
     # This snapshot uses LAYOUT match level to avoid differences in closing time text.
-    Eyes Check Window    Main Page    Fully    Match Level  LAYOUT
+    #Eyes Check Window    Main Page    Fully    Match Level  LAYOUT
