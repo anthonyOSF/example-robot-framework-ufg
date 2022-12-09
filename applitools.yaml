@@ -38,17 +38,17 @@ web_ufg:
       - browser_type: CHROME
         width: 800
         height: 600
-      - browser_type: EDGE
-        width: 1600
-        height: 1200
-      - browser_type: SAFARI
-        width: 1024
-        height: 768
+      #- browser_type: EDGE
+      #  width: 1600
+      #  height: 1200
+      #- browser_type: SAFARI
+      #  width: 1024
+      #  height: 768
     
     # Add 2 mobile emulation devices with different orientations for cross-browser testing in the Ultrafast Grid.
     # Other mobile devices are available, including iOS.
-    chrome_emulation:
-      - device_name: Pixel_2
-        screen_orientation: PORTRAIT
-      - device_name: Nexus_10
-        screen_orientation: LANDSCAPE
+    #chrome_emulation:
+    #  - device_name: Pixel_2
+    #    screen_orientation: PORTRAIT
+    #  - device_name: Nexus_10
+    #    screen_orientation: LANDSCAPE
