@@ -33,7 +33,7 @@ Log into bank account
 
     # Perform login.
     Input Text        id:username    applibot
-    Input Text        id:password    I<3VisualTests
+    Input Text        id:password    I<3VisualTest
     Click Element     id:log-in
 
     # Verify the full main page loaded correctly.
